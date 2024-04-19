@@ -1,0 +1,68 @@
+1. SYSTEM FEASIBILITY
+1.1 Introduction
+During the retrieval phase, the user initiates the process by submitting a retrieval request to
+the cloud server. Upon validation of the request, the cloud server notifies the key
+management system to distribute the necessary encryption keys. Subsequently, the cloud
+server measures the similarity distances between the requested features and the features of
+encrypted images stored in its database. Based on these distances, the cloud server selects
+similar encrypted images to be sent back to the user. Meanwhile, it constructs a Merkle hash
+tree using the distance results and generates a root hash representing the integrity of the
+retrieval process. This root hash is then uploaded onto the blockchain, committing to the
+completion of the retrieval service. In case the user doubts the returned images' similarity,
+they can submit a challenge-based request to the blockchain. The smart contract on the
+blockchain verifies the retrieval results using the challenge set submitted by the user,
+providing a verification result that proves the correctness of the retrieval service provided
+by the cloud server. This integrated process ensures transparency and accountability in the
+retrieval service while maintaining data security and integrity.
+PRELIMINARY INVESTIGATION: The preliminary investigation phase marks the
+inception of the project development process, focusing on three key activities: Request
+Clarification, Feasibility Study, and Request Approval.
+REQUEST CLARIFICATION: Upon receiving approval from the organization and project
+guide, the project request undergoes thorough examination to ascertain the precise
+requirements of the system. The proposed project aims to design a mail-enabled platform
+tailored for a small firm, facilitating seamless communication through message sending and
+receiving functionalities, incorporating a search engine, address book, and entertaining
+games. Designed for users interconnected via the Local Area Network (LAN), the platform
+addresses the need for convenient and efficient communication in today's fast-paced
+business environment.
+FEASIBILITY ANALYSIS: An essential outcome of the preliminary investigation is
+determining the feasibility of the system request. This entails evaluating operational,
+economic, and technical feasibilities.
+• Operational Feasibility: The system is designed to streamline administrative tasks and
+enhance project progress tracking, thereby reducing time and energy previously expended
+on manual processes. The operational feasibility study confirms the system's viability.
+• Economic Feasibility: A cost-benefit analysis validates the economic justification for the
+project. Leveraging existing hardware and network resources within the organization,
+coupled with the network-based nature of the system allowing widespread usage, ensures
+economic feasibility.
+• Technical Feasibility: Assessment of technical resources reveals that the system can be
+developed using IBM compatible machines with a graphical web browser connected to the
+Internet and Intranet. Utilizing platform-independent technologies such as Java Server
+Pages, JavaScript, HTML, SQL server, and WebLogic Server, the system is deemed
+technically feasible for development with existing facilities.
+1.2 EXISTING SYSTEM
+The framework of secure Content-Based Image Retrieval (CBIR) typically comprises two
+modules: feature protection and feature similarity measurement. Feature protection involves
+extracting image features and encrypting them using encryption techniques to ensure the
+encrypted image feature descriptors can be utilized for retrieval calculation. Remote sensing
+images often utilize traditional hand-crafted or deep network features to express visual
+content. Deep learning networks, in particular, exhibit strong feature recognition
+capabilities, making them suitable for remote sensing image retrieval due to their superiority
+over hand-crafted features.
+1.3 DISADVANTAGES OF EXISTING SYSTEM
+Traditional key management schemes, often based on key trees or hierarchical structures,
+rely heavily on the joining and leaving of members over time, leading to potential overheads.
+Hierarchical structures, while offering convenient key management, introduce additional
+intermediate entities (e.g., intermediate key managers), thereby increasing complexity and
+overhead in the key management process.
+1.4 PROPOSED SYSTEM
+Despite the low computational complexity of existing works, encrypted features often retain
+the original feature information, resulting in inadequate retrieval performance and
+compromised security. To address these shortcomings, a secure image retrieval approach
+based on homomorphic encryption is proposed.
+1.5 ADVANTAGES OF PROPOSED SYSTEM
+The proposed system addresses the vulnerabilities associated with Third-Party Auditors
+(TPAs) by integrating blockchain technology for security verification. Unlike current
+retrieval verification schemes, which overlook the correctness of retrieved results and
+similarity rankings of returned images, the proposed system combines blockchain to enhance
+security verification and ensure the integrity of retrieval results.
