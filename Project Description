@@ -1,0 +1,57 @@
+1.INTRODUCTION
+1.1 OVERVIEW
+The exponential growth of remote sensing images to petabyte levels due to the proliferation
+of satellites presents significant challenges for users in managing storage and processing
+resources. To cope with these challenges, many usersturn to Cloud Service Providers (CSPs)
+for outsourced solutions, including storage and content-based retrieval services. However,
+entrusting sensitive image data to CSPsraises concerns regarding data security and integrity.
+Security risks associated with outsourcing sensitive remote sensing data to CSPs include the
+potential for unauthorized access and data leaks. Encryption is commonly used to protect
+data confidentiality before outsourcing it to CSPs. While encryption secures data from
+unauthorized access, it poses challenges in ensuring the correctness of storage and retrieval
+services provided by CSPs, leading to potential risks of incomplete or incorrect retrieval
+results. Traditional solutions, such as third-party auditors (TPAs), have been employed to
+verify CSP services, but they bring their own set of challenges, including trustworthiness
+and the risk of collusion with CSPs, undermining the integrity of verification reports.
+Blockchain technology emerges as a promising solution to address these challenges by
+providing a decentralized, tamper-resistant ledger that ensures the integrity, reliability, and
+verifiability of on-chain data. By leveraging blockchain, users can mitigate the risk of
+malicious behaviour from CSPs or collusion between CSPs and TPAs. However, current
+blockchain architectures face limitations in accommodating existing verification methods,
+necessitating further research to overcome these constraints and ensure comprehensive
+integrity in remote sensing image retrieval.
+1.2 SCOPE OF THE PROJECT
+The project focuses on addressing the security and reliability challenges associated with
+remote sensing image retrieval in cloud environments. With the proliferation of satellite data
+leading to petabyte-level storage demands, users increasingly rely on cloud service providers
+(CSPs) for image storage and retrieval. However, concerns arise regarding the potential
+unauthorized access and manipulation of sensitive image data by semi trusted CSPs. To
+mitigate these risks, the project explores the integration of blockchain technology,
+leveraging its decentralized and tamper-resistant nature to ensure data integrity, reliability,
+and verifiability.
+2
+By emphasizing the importance of both data integrity and the correctness of retrieval
+services, the project aims to develop a robust solution that enables secure and efficient
+remote sensing image retrieval while safeguarding against potential malicious behaviour
+from CSPs and third-party auditors.
+1.3 PROBLEM STATEMENT
+The sheer volume and variety of remote sensing images strain users' storage and processing
+capabilities, necessitating reliance on cloud service providers (CSPs) for outsourced
+solutions and content-based retrieval. However, this reliance raises concerns regarding data
+security and integrity. The sensitive nature of remote sensing data, including geographic
+locations and resource distribution patterns, exposes users to the risk of unauthorized access
+and data leaks. Encryption serves as a primary means of protecting data confidentiality;
+however, ensuring the correctness of storage and retrieval services in encrypted
+environments remains a challenge. Without visibility into encrypted data, users face the
+prospect of incomplete or erroneous retrieval results from CSPs, stemming from factors such
+as resource optimization or fraudulent practices.
+1.4 OBJECTIVE
+Fortunately, blockchain technology offers a promising avenue for addressing the verification
+of data integrity and service correctness in remote sensing image retrieval. As a
+decentralized, tamper-resistant, and traceable distributed ledger, blockchain technology
+ensures the trustworthiness of on-chain data. Each participating full node collaborates to
+maintain data integrity through replication, while the data structure of chained hashing and
+consensus algorithms safeguards against arbitrary data manipulation. Leveraging blockchain
+technology, users can mitigate the risk of malicious behaviour from CSPs and collusion
+between CSPs and third-party auditors (TPAs), thereby enhancing the integrity and
+reliability of remote sensing image retrieval services.
