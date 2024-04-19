@@ -1,0 +1,24 @@
+CONCLUSION
+In this article, we propose a blockchain-assisted verifiable and secure remote sensing image
+retrieval scheme in the cloud environment that achieves secure and efficient image retrieval
+while ensuring the correctness of retrieval results. In particular, we assign the geographical
+objects in remote sensing images as attributes due to the unique characteristics of remote
+sensing images. In the retrieval phase, the CSP only measures images with the same
+attributes as the query image, which can significantly improve the efficiency of image
+retrieval. In addition, we design a blockchain-assisted verifiable method to enable users to
+effectively verify the correctness and integrity of retrieval results, while dishonest behavior
+of CSP in the process of retrieval services can be recorded by the blockchain. We have
+proved the security and feasibility of the proposed scheme and conducted the experiment
+evaluation.
+
+FUTURE SCOPE
+In the future, the project could expand its scope by delving into various avenues of 
+development. This may involve refining blockchain integration to accommodate the specific 
+needs of verifying data integrity and service correctness in cloud environments, while also 
+exploring the automation of verification processes through smart contracts. Scalability solutions 
+would be crucial to handle the exponential growth of remote sensing data, while privacypreserving techniques could ensure the protection of sensitive information. Interoperability with 
+existing systems would facilitate seamless integration of blockchain technology, while userfriendly interfaces and tools could enhance adoption. Real-world implementation and testing 
+would provide valuable insights, and addressing regulatory compliance and governance issues 
+would be essential for widespread adoption. By exploring these avenues, the project can 
+advance the development of secure, reliable, and efficient remote sensing image retrieval 
+systems in cloud environments.
